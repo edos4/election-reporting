@@ -1,0 +1,20 @@
+#Change these according to your machine or environment
+
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  user: postgresq
+  password:
+
+development:
+  <<: *default
+  database: reporting_dev
+
+test:
+  <<: *default
+  database: reporting_test
+
+production:
+  <<: *default
+  database: reporting
