@@ -11,6 +11,8 @@ gem 'devise'
 gem 'omniauth'
 
 gem 'pg'
+gem 'execjs'
+gem 'therubyracer'
 
 gem 'foundation-rails'
 gem 'sass-rails', '~> 5.0'
